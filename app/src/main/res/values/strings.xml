@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Skripsi</string>
+    <string name="keluar">Keluar</string>
+    <string name="keluar_message">Apakah anda yakin ingin keluar dari aplikasi ini?</string>
+    <string name="lihat_data_terbaru">Lihat Data Terbaru</string>
+    <string name="bantuan">Bantuan</string>
+</resources>

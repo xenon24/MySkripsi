@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lihat_data_terbaru"
+        android:title="@string/lihat_data_terbaru"
+        app:showAsAction="collapseActionView">
+    </item>
+    <item
+        android:id="@+id/bantuan"
+        android:title="@string/bantuan"
+        app:showAsAction="collapseActionView">
+    </item>
+</menu>

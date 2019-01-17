@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="graylight">#F8F8F8</color>
+    <color name="white">#ffffff</color>
+    <color name="abu">#EEEEEE</color>
+    <color name="startGreen">#00695C</color>
+    <color name="endGreen">#00796B</color>
+    <color name="deeppurple">#7C4DFF</color>
+    <color name="yello">#FFB300</color>
+    <color name="green">#00BFA5</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
