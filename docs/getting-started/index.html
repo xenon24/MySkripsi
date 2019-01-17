@@ -1,0 +1,709 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="A Material Design theme for MkDocs">
+      
+      
+        <link rel="canonical" href="https://squidfunk.github.io/mkdocs-material/getting-started/">
+      
+      
+        <meta name="author" content="Martin Donath">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Kebutuhan Sistem - Internet of Things</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.11e41852.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#kebutuhan-sistem" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://squidfunk.github.io/mkdocs-material/" title="Internet of Things" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Internet of Things
+              </span>
+              <span class="md-header-nav__topic">
+                Kebutuhan Sistem
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/squidfunk/mkdocs-material" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      squidfunk/mkdocs-material
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+<nav class="md-tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href=".." title="Tetang" class="md-tabs__link md-tabs__link--active">
+        Tetang
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://squidfunk.github.io/mkdocs-material/" title="Internet of Things" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Internet of Things
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/squidfunk/mkdocs-material" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      squidfunk/mkdocs-material
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Tetang" class="md-nav__link">
+      Tetang
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Kebutuhan Sistem
+      </label>
+    
+    <a href="./" title="Kebutuhan Sistem" class="md-nav__link md-nav__link--active">
+      Kebutuhan Sistem
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alur-kerja-aplikasi" title="Alur kerja aplikasi" class="md-nav__link">
+    Alur kerja aplikasi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#persiapan-rangkaian-mikrokontroller" title="Persiapan rangkaian mikrokontroller" class="md-nav__link">
+    Persiapan rangkaian mikrokontroller
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mikrokontroller-arduino-uno" title="Mikrokontroller arduino UNO" class="md-nav__link">
+    Mikrokontroller arduino UNO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-suhu-dan-kelembaban-dht11" title="Sensor suhu dan kelembaban (DHT11)" class="md-nav__link">
+    Sensor suhu dan kelembaban (DHT11)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modul-wifi-esp8266" title="Modul wifi ESP8266" class="md-nav__link">
+    Modul wifi ESP8266
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rangkaian-mikrokontroller" title="Rangkaian mikrokontroller" class="md-nav__link">
+    Rangkaian mikrokontroller
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menyiapkan-akun-thingspeak" title="Menyiapkan akun thingspeak" class="md-nav__link">
+    Menyiapkan akun thingspeak
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../specimen/" title="Pembuatan Sistem" class="md-nav__link">
+      Pembuatan Sistem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../customization/" title="Dokumentasi" class="md-nav__link">
+      Dokumentasi
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alur-kerja-aplikasi" title="Alur kerja aplikasi" class="md-nav__link">
+    Alur kerja aplikasi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#persiapan-rangkaian-mikrokontroller" title="Persiapan rangkaian mikrokontroller" class="md-nav__link">
+    Persiapan rangkaian mikrokontroller
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mikrokontroller-arduino-uno" title="Mikrokontroller arduino UNO" class="md-nav__link">
+    Mikrokontroller arduino UNO
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-suhu-dan-kelembaban-dht11" title="Sensor suhu dan kelembaban (DHT11)" class="md-nav__link">
+    Sensor suhu dan kelembaban (DHT11)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modul-wifi-esp8266" title="Modul wifi ESP8266" class="md-nav__link">
+    Modul wifi ESP8266
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rangkaian-mikrokontroller" title="Rangkaian mikrokontroller" class="md-nav__link">
+    Rangkaian mikrokontroller
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menyiapkan-akun-thingspeak" title="Menyiapkan akun thingspeak" class="md-nav__link">
+    Menyiapkan akun thingspeak
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="kebutuhan-sistem">Kebutuhan Sistem<a class="headerlink" href="#kebutuhan-sistem" title="Permanent link">&para;</a></h1>
+<h2 id="alur-kerja-aplikasi">Alur kerja aplikasi<a class="headerlink" href="#alur-kerja-aplikasi" title="Permanent link">&para;</a></h2>
+<p>Aplikasi monitoring suhu dan kelembaban ruangan greenhouse memiliki alur sistem seperti berikut:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/alur.png" width="50%" height="50%">
+    </center>
+</p>
+
+<ul>
+<li>Letakkan mikrokontroller arduino uno yang sudah terangkai sensor DHT11 dan modul wifi ESP8266 (sumber didapatkan dari powerbank) pada lingkungan pertanian atau ruangan <em>greenhouse</em>.</li>
+<li>Hubungkan mikrokontroller dengan koneksi internet, koneksi internet ini berguna untuk mengirimkan data yang telah diperoleh dari hasil <em>monitoring</em> ke penyedia API <em>thingspeak</em> .</li>
+<li>Ambil data dari API <em>thingspeak</em> kemudian tampilkan data suhu dan kelembaban hasil <em>monitoring</em> ke dalam aplikasi android yang  telah dibuat.</li>
+</ul>
+<h2 id="persiapan-rangkaian-mikrokontroller">Persiapan rangkaian mikrokontroller<a class="headerlink" href="#persiapan-rangkaian-mikrokontroller" title="Permanent link">&para;</a></h2>
+<p>Dalam pembuatan aplikasi <em>monitoring</em> suhu dan kelembaban ruangan <em>greenhouse</em> diperlukan beberapa komponen mikrokontroller dan sensor, antara lain sebagai berikut:</p>
+<h3 id="mikrokontroller-arduino-uno">Mikrokontroller arduino UNO<a class="headerlink" href="#mikrokontroller-arduino-uno" title="Permanent link">&para;</a></h3>
+<p>Arduino ialah sebuah perangkat elektronik yang bersifat <em>open source</em> serta mudah digunakan. Hal tersebut ditunjukan agar siapapun dapat membuat proyek interaktif dengan mudah dan menarik. Pada skripsi kali ini Arduino yang digunakan adalah arduino UNO. Berikut adalah arduino UNO dapat dilihat pada gambar berikut ini:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/uno.png" width="40%" height="40%">
+    </center>
+</p>
+
+<h3 id="sensor-suhu-dan-kelembaban-dht11">Sensor suhu dan kelembaban (DHT11)<a class="headerlink" href="#sensor-suhu-dan-kelembaban-dht11" title="Permanent link">&para;</a></h3>
+<p>Sensor DHT11 adalah sensor suhu dan kelembaban udara. <em>Range</em> kelembaban yang dapat diukur antara 20% - 90% RH dengan tingkat akurasi ± 4% RH dan sensitivitas 1% RH. DHT11 memiliki 2 buah pin, yaitu terdiri dari pin VCC, DATA, dan GND. Berikut adalah DHT11 dapat dilihat pada gambar berikut ini:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/DHT11.jpg" width="30%" height="30%">
+    </center>
+</p>
+
+<h3 id="modul-wifi-esp8266">Modul wifi ESP8266<a class="headerlink" href="#modul-wifi-esp8266" title="Permanent link">&para;</a></h3>
+<p>Wifi merupakan teknologi yang digunakan pada sebuah perangkat elektronik yang mana ditujukan untuk berpindahnya data secara nirkabel  atau dengan kata lain memakai gelombang radio yang melewati sebuah jaringan komputer. Peralatan dapat terhubung ke jaringan komputer melalui sebuah <em>acces point</em>. Sebuah <em>acces point</em> memiliki jangkauan kurang lebih 20 meter ketika berada dalam ruangan dan lebih luas lagi jikalau berada di luar ruangan.</p>
+<p>Modul Wifi ESP8266 termasuk SoC (<em>System on Chip</em>) dengan stack protokol TCP/IP yang mana sudah menyatu menjadi kesatuan yang utuh, sehingga tidak sulit untuk diakses dengan memakai mikrokontroler melewati komunkasi serial 802.11 b/ g/ n/ Wi-Fi Direct (P2P). Modul Wifi ESP8266 mampu menjadi <em>host</em> ataupun sebagai modul <em>transfer</em> data dalam sebuah jaringan Wifi. Modul ini memiliki kemampuan pengolahan dan penyimpanan data yang baik sehingga memungkinkan untuk diintegrasikan dengan sensor dan perangkat khusus lainnya melalui GPIO. </p>
+<p>Modul ESP8266 membutuhkan input tegangan dengan range 3.3 volt, namun konsumsi dayanya tinggi. Jika tegangan yang masuk kurang atau lebih dari range yang ditentukan maka  modul tidak akan aktif atau kondisi yang lebih buruk lagi yaitu menjadi rusak. Berikut adalah Modul Wifi ESP8266 dapat dilihat pada  gambar berikut ini:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/esp8266.jpg" width="30%" height="30%">
+    </center>
+</p>
+
+<h3 id="rangkaian-mikrokontroller">Rangkaian mikrokontroller<a class="headerlink" href="#rangkaian-mikrokontroller" title="Permanent link">&para;</a></h3>
+<p>Berikut adalah desain sistem mikrokontroler meliputi perancangan arduino UNO beserta sensor DHT11 dan modul wifi ESP8266, dilihat pada gambar ini:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/rangkaian.png" width="50%" height="50%">
+    </center>
+</p>
+
+<p>Langkah untuk menyusun rangkaian sistem mikrokontroler:</p>
+<blockquote>
+<p>Pertama, siapkan alat berserta sensor berikut:​    </p>
+</blockquote>
+<p>a.     Mikrokontroler Arduino Uno</p>
+<p>b.     Sensor suhu dan kelembaban (DHT11)</p>
+<p>c.     Modul wifi ESP8266</p>
+<blockquote>
+<p>Kedua, hubungkan sensor DHT11 dengan mikrokontroler Arduino Uno sebagai berikut:</p>
+</blockquote>
+<p>a.     Hubungkan kaki ke-1 DHT11 ke 5V Arduino Uno </p>
+<p>b.     Hubungkan kaki ke-2 DHT11 ke Pin 2 Arduino Uno</p>
+<p>c.     Hubungkan kaki ke-3 DHT11 ke GND Arduino Uno</p>
+<blockquote>
+<p>Ketiga, hubungkan modul wifi ESP8266 dengan mikrokontroler Arduino Uno sebagai berikut:</p>
+</blockquote>
+<p>a.     Hubungkan kaki RX modul wifi ESP8266 ke Pin 11 Arduino Uno.</p>
+<p>b.     Hubungkan kaki GND modul wifi ESP8266 ke GND Arduino Uno.</p>
+<p>c.     Hubungkan kaki TX modul wifi ESP8266 ke Pin 10 Arduino Uno.</p>
+<p>d.     Hubungkan kaki VCC dan CH_PD modul wifi ESP8266 ke 3V Arduino Uno.</p>
+<h2 id="menyiapkan-akun-thingspeak">Menyiapkan akun thingspeak<a class="headerlink" href="#menyiapkan-akun-thingspeak" title="Permanent link">&para;</a></h2>
+<p>Pada pembuatan aplikasi diperlukan membuat akun <em>thingspeak</em> terlebih dahulu agar bisa mengirim dan menyimpan data hasil <em>monitoring</em>. Dikarenakan pada pembuatan aplikasi ini peneliti menggunakan teknologi <em>Internet of Things</em> (IoT) sedangkan <em>thingspeak</em> adalah sebuah platform <em>Internet of Things</em> (IoT) <em>open source</em> dan <em>API</em> yang bisa menyimpan dan mengambil data dari berbagai hal dengan memakai protokol <em>HTTP</em> yang melewati sebuah intenet atau melewati <em>Local Area Network</em>. <em>Thingspeak</em> dapat digunakan dalam pembuatan aplikasi pencatatan sensor dan lokasi, selain itu juga dapat digunakan dalam hal pembaruan status di jejaring sosial.</p>
+<p><em>Thingspeak</em> memiliki dukungan terintegrasi dengan  aplikasi <em>MATLAB</em> dari <em>MathWork</em>, yang memungkinkan pengguna <em>Thingspeak</em> untuk menganalisa dan memvisualisasikan data yang diunggah menggunakan <em>MATLAB</em> tanpa memerlukan pembelian lisensi <em>MATLAB</em> dari <em>Mathwork</em>. Untuk membuat akun thingspeak anda bisa mengakses <a href="https://thingspeak.com/">halaman berikut</a>.</p>
+<p>Berikut adalah tampilan halaman utama thingspeak:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/c1.jpg" width="50%" height="50%">
+    </center>
+</p>
+
+<p>Untuk mendaftar akun thingspeak pilih <a href="https://thingspeak.com/users/sign_up">sign up</a>, maka tampilannya sebagai berikut:</p>
+<p>
+    <center>
+    <img alt="" src="../assets/images/c2.jpg" width="50%" height="50%">
+    </center>
+</p>
+
+<p>Setelah anda mendaftar akun thingspeak, lakukan login kemudian buatlah channel, channel disini berfungsi sebagai tempat menampung data sementara dan juga sebagai tempat yang digunakan untuk menjembatani mekrokontroler arduino ke aplikasi yang dibuat sehingga data yang diambil dari sensor bisa ditampilkan ke dalam aplikasi. berikut adalah cara membuat channel:</p>
+<blockquote>
+<p>pilih new channel, kemudian buat channel isi nama channel, deskripsi, dan pilih berapa tabel yang akan dibuat seperti gambar berikut:</p>
+</blockquote>
+<p>
+    <center>
+    <img alt="" src="../assets/images/c3.jpg" width="50%" height="50%">
+    </center>
+</p>
+
+<p>
+    <center>
+    <img alt="" src="../assets/images/c4.jpg" width="50%" height="50%">
+    </center>
+</p>
+
+<blockquote>
+<p>setelah channel selesai dibuat maka tampilan seperti gambar berikut:</p>
+</blockquote>
+<p>
+    <center>
+    <img alt="" src="../assets/images/c5.jpg" width="50%" height="50%">
+    </center>
+</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Tetang" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Tetang
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../specimen/" title="Pembuatan Sistem" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Pembuatan Sistem
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2016 - 2018 Martin Donath
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="http://struct.cc" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://github.com/squidfunk" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/squidfunk" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://linkedin.com/in/squidfunk" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.905597d0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+    
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","None","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(a){a.host!=document.location.host&&a.addEventListener("click",function(){var e=a.getAttribute("data-md-action")||"follow";ga("send","event","outbound",e,a.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      
+    
+  </body>
+</html>
